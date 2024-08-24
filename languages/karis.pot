@@ -1,0 +1,576 @@
+# Copyright (C) 2018 Vladimir Kulesh
+# This file is distributed under the Themeforest Split Licence.
+msgid ""
+msgstr ""
+"Project-Id-Version: Karis 1.0.1\n"
+"Report-Msgid-Bugs-To: https://themeforest.net/user/v_kulesh\n"
+"POT-Creation-Date: 2019-04-17 08:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. 1: comment date, 2: comment time
+#: classes/class-karis-walker-comment.php:76
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. %s: comment author link
+#: classes/class-karis-walker-comment.php:56
+#, php-format
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:66
+msgid ", "
+msgstr ""
+
+#: functions.php:147
+msgid "Accent "
+msgstr ""
+
+#: inc/customizer/sections/colors.php:41
+msgid "Accent Color"
+msgstr ""
+
+#: functions.php:152
+msgid "Accent Hover"
+msgstr ""
+
+#: inc/customizer/sections/colors.php:58
+msgid "Accent Hover Color"
+msgstr ""
+
+#: functions.php:275
+msgid "Add widgets here to appear before the comments on posts."
+msgstr ""
+
+#: functions.php:285 functions.php:295 functions.php:305
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: inc/customizer/sections/colors.php:24
+msgid "Base Color Scheme"
+msgstr ""
+
+#: inc/mailchimp.php:74
+msgid "Bottom MailChimp Form"
+msgstr ""
+
+#: inc/template-tags.php:69
+msgid "Categories "
+msgstr ""
+
+#: inc/template-tags.php:51
+msgid "Category "
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:32
+msgid "Classic layout"
+msgstr ""
+
+#: template-parts/search-overlay.php:12
+msgid "Close"
+msgstr ""
+
+#: functions.php:384
+msgid "Collapse child menu"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number.
+#: comments.php:56
+#, php-format
+msgctxt "Comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/theme-required-plugins.php:49
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:273
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:16
+msgid "Content Area Settings"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:27
+msgid "Content Layout"
+msgstr ""
+
+#. %s: Name of current post
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:348 inc/template-tags.php:386
+#: inc/template-tags.php:405 template-parts/post/content-single.php:28
+#: template-parts/post/content.php:34
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:157
+msgid "Dark"
+msgstr ""
+
+#: functions.php:162
+msgid "Dark Gray"
+msgstr ""
+
+#: inc/customizer/sections/colors.php:97
+msgid "Default"
+msgstr ""
+
+#: inc/plugins/theme-required-plugins.php:37
+msgid "Developer Share Buttons"
+msgstr ""
+
+#: inc/mailchimp.php:56 inc/mailchimp.php:80
+msgid "Disable MailChimp Form"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:63
+msgid "Disable Post Navigation"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:88
+msgid "Disable Related Posts"
+msgstr ""
+
+#: inc/mailchimp.php:75
+msgid "Display MailChimp Form after the main content on the front page."
+msgstr ""
+
+#: inc/mailchimp.php:51
+msgid "Display MailChimp Form before the main content on the front page."
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:58
+msgid "Display post navigation before the footer."
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:83
+msgid "Display related posts before the footer."
+msgstr ""
+
+#: inc/customizer/sections/featured-area.php:33
+msgid "Don't Display Featured Content"
+msgstr ""
+
+#: classes/class-karis-walker-comment.php:82
+msgid "Edit"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:166
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> %s</span>"
+msgstr ""
+
+#: inc/mailchimp.php:55 inc/mailchimp.php:79
+msgid "Enable MailChimp Form"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:62
+msgid "Enable Post Navigation"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:87
+msgid "Enable Related Posts"
+msgstr ""
+
+#: functions.php:383
+msgid "Expand child menu"
+msgstr ""
+
+#: inc/template-tags.php:33
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer/sections/featured-area.php:16
+msgid "Featured Area Settings"
+msgstr ""
+
+#: inc/customizer/sections/featured-area.php:28
+msgid "Featured Content"
+msgstr ""
+
+#: inc/template-functions.php:200
+msgid "Featured Content Placeholder"
+msgstr ""
+
+#: functions.php:283
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:293
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:303
+msgid "Footer 3"
+msgstr ""
+
+#: inc/customizer/sections/footer-area.php:16
+msgid "Footer Area Settings"
+msgstr ""
+
+#: inc/customizer/sections/footer-area.php:30
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/sections/featured-area.php:35
+msgid "Full Width Posts Carousel"
+msgstr ""
+
+#: functions.php:74 template-parts/navigation/header-menu.php:17
+msgid "Header Menu"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/v_kulesh"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themeforest.net/user/v_kulesh/portfolio"
+msgstr ""
+
+#: functions.php:131
+msgid "Huge"
+msgstr ""
+
+#. Name of the theme
+msgid "Karis"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Karis is a clean and modern WordPress theme with an elegant, carefully "
+"crafted design. This powerful, responsive blog theme is ideal for your "
+"personal or magazine-style blog, whether your passion is travel, beauty, "
+"nature, photography, architecture, DIY... the list goes on! Karis will make "
+"your WordPress look beautiful everywhere. The theme was designed with the "
+"\"mobile first\" design, meaning it was designed for mobile from the "
+"beginning and was adapted for bigger screen afterward. This result in a "
+"beautiful experience for the users, on all devices. Unlimited accent colors, "
+"2 featured area layouts, 13 different blog listing layouts, dozens of "
+"configurable options - and all of this you can manage with one click of your "
+"mouse in user friendly WordPress Customizer or when adding new post or page."
+msgstr ""
+
+#: inc/back-compat.php:33 inc/back-compat.php:43 inc/back-compat.php:56
+#, php-format
+msgid ""
+"Karis requires at least WordPress version 4.7. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/plugins/theme-required-plugins.php:28
+msgid "Karis Theme"
+msgstr ""
+
+#: functions.php:126
+msgid "L"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:125
+msgid "Large"
+msgstr ""
+
+#: functions.php:167
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:120
+msgid "M"
+msgstr ""
+
+#: inc/plugins/theme-required-plugins.php:43
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/mailchimp.php:108 inc/mailchimp.php:127
+msgid "MailChimp Form Placeholder"
+msgstr ""
+
+#: template-parts/navigation/header-menu.php:11
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:38
+msgid "Mixed: large and three-column grid"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:37
+msgid "Mixed: two-columns and three-columns"
+msgstr ""
+
+#: inc/template-functions.php:215
+#: template-parts/featured/featured-carousel-v1.php:50
+msgid "Next"
+msgstr ""
+
+#: functions.php:119
+msgid "Normal"
+msgstr ""
+
+#: template-parts/post/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:52
+msgid "One Comment"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Open Sans or PT Serif, translate this to 'off'.
+#. Do not translate into your own language.
+#: functions.php:227
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template-functions.php:216 inc/template-functions.php:313
+msgid "Page"
+msgstr ""
+
+#: inc/template-functions.php:309
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:57
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/template-functions.php:340
+msgid "Post Navigation Placeholder"
+msgstr ""
+
+#: inc/template-functions.php:214
+#: template-parts/featured/featured-carousel-v1.php:49
+msgid "Previous"
+msgstr ""
+
+#: template-parts/navigation/post-navigation.php:28
+msgid "Previous post"
+msgstr ""
+
+#: functions.php:228
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr ""
+
+#: image.php:75
+msgid "Published in"
+msgstr ""
+
+#: image.php:76
+msgid "Published in:"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/post/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/customizer/sections/colors.php:104
+msgid "Red"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:82
+msgid "Related Posts"
+msgstr ""
+
+#: inc/template-functions.php:364
+msgid "Related Posts Placeholder"
+msgstr ""
+
+#: functions.php:114
+msgid "S"
+msgstr ""
+
+#: template-parts/featured/featured-site-info.php:53
+msgid "Scroll to content"
+msgstr ""
+
+#: template-parts/search-overlay.php:17
+#: template-parts/navigation/header-menu.php:33
+#: template-parts/navigation/header-menu.php:33
+msgid "Search"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:28
+msgid "Select the layout to display your posts list."
+msgstr ""
+
+#: inc/customizer/sections/featured-area.php:29
+msgid "Select what type of content you want to see in featured area."
+msgstr ""
+
+#. 1: show comments title.
+#: comments.php:39
+msgctxt "Show comments title."
+msgid "Leave a Comment"
+msgstr ""
+
+#. 1: show comments title. 2: comment count number.
+#: comments.php:32
+msgctxt "Show comments title."
+msgid "Show Comments"
+msgstr ""
+
+#: inc/template-functions.php:169
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:113
+msgid "Small"
+msgstr ""
+
+#: template-parts/navigation/social-menu.php:10
+msgid "Social Links Menu"
+msgstr ""
+
+#: functions.php:75
+msgid "Social Menu"
+msgstr ""
+
+#: template-parts/post/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/sections/featured-area.php:34
+msgid "Tagline and Header Image"
+msgstr ""
+
+#: 404.php:22 template-parts/post/content-none.php:45
+msgid ""
+"The page you were looking for cannot be found, it may have been moved or no "
+"longer exists. Perhaps searching can help."
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:35
+msgid "Three-column grid layout"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:39
+msgid "Three-column grid layout (modern)"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:36
+msgid "Three-column grid layout (wide)"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:42
+msgid "Three-column masonry layout"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:44
+msgid "Three-column masonry layout (modern)"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:43
+msgid "Three-column masonry layout (wide)"
+msgstr ""
+
+#: inc/mailchimp.php:50
+msgid "Top MailChimp Form"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:33
+msgid "Two-column grid layout"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:34
+msgid "Two-column grid layout (modern)"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:40
+msgid "Two-column masonry layout"
+msgstr ""
+
+#: inc/customizer/sections/content-area.php:41
+msgid "Two-column masonry layout (modern)"
+msgstr ""
+
+#: image.php:61
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: inc/template-tags.php:146
+msgctxt "Used before post date."
+msgid "Posted on "
+msgstr ""
+
+#: template-parts/post/author-info.php:30
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#. Author of the theme
+msgid "Vladimir Kulesh"
+msgstr ""
+
+#: functions.php:172
+msgid "White"
+msgstr ""
+
+#: functions.php:132
+msgid "XL"
+msgstr ""
+
+#: inc/customizer/sections/footer-area.php:31
+msgid "You can change footer copyright and use your own custom text from here."
+msgstr ""
+
+#: template-parts/related-posts.php:51
+msgid "You may also like"
+msgstr ""
+
+#: classes/class-karis-walker-comment.php:86
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: template-parts/footer/footer-copyright.php:8
+#: inc/customizer/sections/footer-area.php:21
+#, php-format
+msgid "©2019. Karis Theme by %1$s"
+msgstr ""

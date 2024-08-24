@@ -1,0 +1,280 @@
+/*
+Theme Name: Karis
+
+MailChimp styles override.
+*/
+.mc4wp-form {
+	padding: 2em;
+	background-color: #f7f8f9;
+}
+
+.mc4wp-form-fields {
+	max-width: 360px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.mc4wp-response {
+	margin-top: 1rem;
+	text-align: center;
+	font-size: .875em;
+}
+
+.mc4wp-response:empty {
+	display: none;
+}
+
+.mc4wp-response p:last-child {
+	margin-bottom: 0;
+}
+
+.subscribe-box__text {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+
+.subscribe-box__text h4 {
+	margin-bottom: .75em;
+	text-transform: uppercase;
+	font-size: 1.3125em;
+	line-height: 1.25;
+}
+
+.subscribe-box__text h4:last-child {
+	margin-bottom: 0;
+}
+
+.subscribe-box__text > p {
+	color: #616165;
+	font-family: 'PT Serif', Georgia, 'Times New Roman', Times, serif;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.subscribe-box__text > p:last-child {
+	margin-bottom: 0;
+}
+
+.subscribe-box__form > p {
+	margin-bottom: 1em;
+}
+
+.subscribe-box__form > p:last-child {
+	margin-bottom: 0;
+}
+
+.subscribe-box__form input[type='submit'] {
+	display: block;
+	width: 100%;
+}
+
+.footer .mc4wp-form {
+	border: 4px solid rgba(0, 0, 0, .07);
+	background-color: transparent;
+}
+
+/* MailChimp Form before and after the main content */
+.mailchimp-content-area {
+	position: relative;
+}
+
+.mailchimp-content-area .container {
+	position: relative;
+	width: 100%;
+	max-width: 1360px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.mailchimp-content-area.mailchimp-content-area--top {
+	margin-top: 4rem;
+}
+
+.mailchimp-content-area.mailchimp-content-area--bottom {
+	padding: 3em 0;
+	background-color: #1c1d21;
+}
+
+.mailchimp-content-area.mailchimp-content-area--bottom .mc4wp-form {
+	padding: 0;
+	background-color: transparent;
+}
+
+.mailchimp-content-area.mailchimp-content-area--bottom .subscribe-box__text h4 {
+	color: #fff;
+}
+
+.mailchimp-content-area.mailchimp-content-area--bottom .subscribe-box__text > p {
+	color: #9e9ea1;
+}
+
+.mailchimp-content-area.mailchimp-content-area--bottom .subscribe-box__form input[type='email'] {
+	color: #fff;
+	background-color: rgba(255, 255, 255, .1);
+}
+
+.mailchimp-content-area.mailchimp-content-area--bottom .mc4wp-alert.mc4wp-notice {
+	color: #9e9ea1;
+}
+
+.mailchimp-content-area .mc4wp-form-fields {
+	max-width: 100%;
+}
+
+.mailchimp-content-area .mc4wp-response {
+	margin-top: 2rem;
+}
+
+/* Customizer */
+.karis-customizer.highlight-mailchimp-content-area .mailchimp-content-area--placeholder > * {
+	z-index: 2;
+	/* Prevent ::after from preventing interactions within the section */
+}
+
+.karis-customizer.highlight-mailchimp-content-area .mailchimp-content-area--placeholder::after {
+	position: absolute;
+	/* Matches visible edit shortcuts. */
+	z-index: 1;
+	top: 0;
+	right: 1rem;
+	bottom: 0;
+	left: 1rem;
+	display: block;
+	content: '';
+	border: 2px dashed #0085ba;
+}
+
+.karis-customizer.highlight-mailchimp-content-area .mailchimp-content-area--bottom.mailchimp-content-area--placeholder .placeholder__title {
+	color: #fff;
+}
+
+.karis-customizer.highlight-mailchimp-content-area .mailchimp-content-area--bottom.mailchimp-content-area--placeholder::after {
+	top: 3rem;
+	bottom: 3rem;
+}
+
+/* Add some space around the visual edit shortcut button. */
+.mailchimp-content-area > .customize-partial-edit-shortcut {
+	left: 50%;
+}
+
+.mailchimp-content-area > .customize-partial-edit-shortcut > button {
+	top: -15px;
+	left: -15px;
+}
+
+@media only screen and (min-width: 480px) {
+	.mailchimp-content-area .container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.mc4wp-form {
+		padding: 4em;
+	}
+	.subscribe-box__text h4 {
+		font-size: 1.5em;
+	}
+	.footer .mc4wp-form {
+		padding: 2em;
+	}
+	.footer .subscribe-box__text h4 {
+		font-size: 1.3125em;
+	}
+	.mailchimp-content-area.mailchimp-content-area--top {
+		margin-top: 5rem;
+	}
+	.mailchimp-content-area .mc4wp-form {
+		padding: 2em;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.mailchimp-content-area.mailchimp-content-area--top {
+		margin-top: 6rem;
+	}
+	.mailchimp-content-area .mc4wp-form {
+		padding: 2.5em;
+	}
+	.mailchimp-content-area .subscribe-box__form {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+	.mailchimp-content-area .subscribe-box__form > * {
+		max-width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.mailchimp-content-area .subscribe-box__form > p {
+		margin-bottom: 0;
+	}
+	.mailchimp-content-area .subscribe-box__form > p:first-child {
+		    flex: 1;
+		margin-right: .75em;
+
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+	}
+	.mailchimp-content-area .subscribe-box__form input[type='email'] {
+		display: block;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.mailchimp-content-area .subscribe-box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+
+		align-items: center;
+		-webkit-box-align: center;
+		-webkit-box-pack: justify;
+		-ms-flex-align: center;
+		-ms-flex-pack: justify;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.mailchimp-content-area .subscribe-box__text {
+		    flex: 0 0 calc(50% - 1.5rem);
+		width: calc(50% - 1.5rem);
+		margin-bottom: 0;
+		text-align: left;
+
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 calc(50% - 1.5rem);
+	}
+	.mailchimp-content-area .subscribe-box__text h4 {
+		margin-bottom: .125em;
+		text-transform: none;
+	}
+	.mailchimp-content-area .subscribe-box__form {
+		    flex: 0 0 calc(50% - 1.5rem);
+		width: calc(50% - 1.5rem);
+
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 calc(50% - 1.5rem);
+	}
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 600px) {
+	.mailchimp-content-area .subscribe-box__text h4 {
+		font-size: 1.3125em;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.mailchimp-content-area.mailchimp-content-area--top {
+		margin-top: 8rem;
+	}
+}

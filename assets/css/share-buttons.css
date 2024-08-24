@@ -1,0 +1,287 @@
+/*
+Theme Name: Karis
+
+Developer Share Buttons styles override.
+*/
+.dev-share-buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	    flex-direction: row;
+	width: 100%;
+	max-width: 800px;
+	margin-right: auto;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	padding-right: calc(1rem - .625rem);
+	padding-left: calc(1rem - .625rem);
+
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-ms-flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.widget_dev_share_buttons_widget,
+.widget_dev_share_buttons_profiles_widget {
+	margin-bottom: calc(3rem - .5rem);
+}
+
+.widget_dev_share_buttons_widget .dev-share-buttons,
+.widget_dev_share_buttons_widget .dev-share-buttons-profiles,
+.widget_dev_share_buttons_profiles_widget .dev-share-buttons,
+.widget_dev_share_buttons_profiles_widget .dev-share-buttons-profiles {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	    flex-direction: row;
+	width: calc(100% + .5rem);
+	max-width: calc(100% + .5rem);
+	margin: 0 -.25rem;
+	padding: 0;
+
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-ms-flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.widget_dev_share_buttons_widget .dev-share-buttons .dev-share-buttons__item,
+.widget_dev_share_buttons_widget .dev-share-buttons .dev-share-buttons-link,
+.widget_dev_share_buttons_widget .dev-share-buttons-profiles .dev-share-buttons__item,
+.widget_dev_share_buttons_widget .dev-share-buttons-profiles .dev-share-buttons-link,
+.widget_dev_share_buttons_profiles_widget .dev-share-buttons .dev-share-buttons__item,
+.widget_dev_share_buttons_profiles_widget .dev-share-buttons .dev-share-buttons-link,
+.widget_dev_share_buttons_profiles_widget .dev-share-buttons-profiles .dev-share-buttons__item,
+.widget_dev_share_buttons_profiles_widget .dev-share-buttons-profiles .dev-share-buttons-link {
+	    flex: 0 0 calc(50% - .5rem);
+	margin: 0 .25rem .5rem;
+	padding: .75rem;
+
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 calc(50% - .5rem);
+}
+
+.content-widgets .widget_dev_share_buttons_widget .dev-share-buttons .dev-share-buttons__item,
+.content-widgets .widget_dev_share_buttons_widget .dev-share-buttons .dev-share-buttons-link,
+.content-widgets .widget_dev_share_buttons_widget .dev-share-buttons-profiles .dev-share-buttons__item,
+.content-widgets .widget_dev_share_buttons_widget .dev-share-buttons-profiles .dev-share-buttons-link,
+.content-widgets .widget_dev_share_buttons_profiles_widget .dev-share-buttons .dev-share-buttons__item,
+.content-widgets .widget_dev_share_buttons_profiles_widget .dev-share-buttons .dev-share-buttons-link,
+.content-widgets .widget_dev_share_buttons_profiles_widget .dev-share-buttons-profiles .dev-share-buttons__item,
+.content-widgets .widget_dev_share_buttons_profiles_widget .dev-share-buttons-profiles .dev-share-buttons-link {
+	    flex: 0 0 auto;
+
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+}
+
+.dev-share-buttons .dev-share-buttons__item,
+.dev-share-buttons .dev-share-buttons-link,
+.dev-share-buttons-profiles .dev-share-buttons__item,
+.dev-share-buttons-profiles .dev-share-buttons-link {
+	position: relative;
+	    flex: 1 1 auto;
+	margin: 0 .625rem 1.25rem;
+	padding: .875rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: .6875em;
+	font-weight: 600;
+	line-height: 1;
+
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+}
+
+.dev-share-buttons .dev-share-buttons__item .svg-icon,
+.dev-share-buttons .dev-share-buttons-link .svg-icon,
+.dev-share-buttons-profiles .dev-share-buttons__item .svg-icon,
+.dev-share-buttons-profiles .dev-share-buttons-link .svg-icon {
+	margin-right: .625em;
+	vertical-align: middle;
+}
+
+.dev-share-buttons .dev-share-buttons__text,
+.dev-share-buttons .dev-share-buttons-link__text,
+.dev-share-buttons-profiles .dev-share-buttons__text,
+.dev-share-buttons-profiles .dev-share-buttons-link__text {
+	position: relative;
+	top: 2px;
+}
+
+.dev-share-buttons .dev-share-buttons__item,
+.dev-share-buttons .dev-share-buttons-link,
+.dev-share-buttons-profiles .dev-share-buttons__item,
+.dev-share-buttons-profiles .dev-share-buttons-link {
+	color: #fff;
+	background-color: #1c1d21;
+}
+
+.dev-share-buttons .dev-share-buttons__item:hover,
+.dev-share-buttons .dev-share-buttons__item:focus,
+.dev-share-buttons .dev-share-buttons-link:hover,
+.dev-share-buttons .dev-share-buttons-link:focus,
+.dev-share-buttons-profiles .dev-share-buttons__item:hover,
+.dev-share-buttons-profiles .dev-share-buttons__item:focus,
+.dev-share-buttons-profiles .dev-share-buttons-link:hover,
+.dev-share-buttons-profiles .dev-share-buttons-link:focus {
+	opacity: .8;
+	color: #fff;
+}
+
+.dev-share-buttons .dev-share-buttons__item--facebook,
+.dev-share-buttons .dev-share-buttons-link--facebook,
+.dev-share-buttons-profiles .dev-share-buttons__item--facebook,
+.dev-share-buttons-profiles .dev-share-buttons-link--facebook {
+	background-color: #3b5998;
+}
+
+.dev-share-buttons .dev-share-buttons__item--twitter,
+.dev-share-buttons .dev-share-buttons-link--twitter,
+.dev-share-buttons-profiles .dev-share-buttons__item--twitter,
+.dev-share-buttons-profiles .dev-share-buttons-link--twitter {
+	background-color: #1da1f2;
+}
+
+.dev-share-buttons .dev-share-buttons__item--google,
+.dev-share-buttons .dev-share-buttons-link--google,
+.dev-share-buttons-profiles .dev-share-buttons__item--google,
+.dev-share-buttons-profiles .dev-share-buttons-link--google {
+	background-color: #dc4e41;
+}
+
+.dev-share-buttons .dev-share-buttons__item--linkedin,
+.dev-share-buttons .dev-share-buttons-link--linkedin,
+.dev-share-buttons-profiles .dev-share-buttons__item--linkedin,
+.dev-share-buttons-profiles .dev-share-buttons-link--linkedin {
+	background-color: #0077b5;
+}
+
+.dev-share-buttons .dev-share-buttons__item--youtube,
+.dev-share-buttons .dev-share-buttons-link--youtube,
+.dev-share-buttons-profiles .dev-share-buttons__item--youtube,
+.dev-share-buttons-profiles .dev-share-buttons-link--youtube {
+	background-color: #cd201f;
+}
+
+.dev-share-buttons .dev-share-buttons__item--instagram,
+.dev-share-buttons .dev-share-buttons-link--instagram,
+.dev-share-buttons-profiles .dev-share-buttons__item--instagram,
+.dev-share-buttons-profiles .dev-share-buttons-link--instagram {
+	background-color: #e4405f;
+}
+
+.dev-share-buttons .dev-share-buttons__item--pinterest,
+.dev-share-buttons .dev-share-buttons-link--pinterest,
+.dev-share-buttons-profiles .dev-share-buttons__item--pinterest,
+.dev-share-buttons-profiles .dev-share-buttons-link--pinterest {
+	background-color: #bd081c;
+}
+
+.dev-share-buttons .dev-share-buttons__item--github,
+.dev-share-buttons .dev-share-buttons-link--github,
+.dev-share-buttons-profiles .dev-share-buttons__item--github,
+.dev-share-buttons-profiles .dev-share-buttons-link--github {
+	background-color: #181717;
+}
+
+.dev-share-buttons .dev-share-buttons__item--whatsapp,
+.dev-share-buttons .dev-share-buttons-link--whatsapp,
+.dev-share-buttons-profiles .dev-share-buttons__item--whatsapp,
+.dev-share-buttons-profiles .dev-share-buttons-link--whatsapp {
+	background-color: #25d366;
+}
+
+.dev-share-buttons .dev-share-buttons__item--snapchat,
+.dev-share-buttons .dev-share-buttons-link--snapchat,
+.dev-share-buttons-profiles .dev-share-buttons__item--snapchat,
+.dev-share-buttons-profiles .dev-share-buttons-link--snapchat {
+	color: #1c1d21;
+	background-color: #fffc00;
+}
+
+.dev-share-buttons .dev-share-buttons__item--snapchat:hover,
+.dev-share-buttons .dev-share-buttons__item--snapchat:focus,
+.dev-share-buttons .dev-share-buttons-link--snapchat:hover,
+.dev-share-buttons .dev-share-buttons-link--snapchat:focus,
+.dev-share-buttons-profiles .dev-share-buttons__item--snapchat:hover,
+.dev-share-buttons-profiles .dev-share-buttons__item--snapchat:focus,
+.dev-share-buttons-profiles .dev-share-buttons-link--snapchat:hover,
+.dev-share-buttons-profiles .dev-share-buttons-link--snapchat:focus {
+	color: #1c1d21;
+}
+
+.dev-share-buttons .dev-share-buttons__item--skype,
+.dev-share-buttons .dev-share-buttons-link--skype,
+.dev-share-buttons-profiles .dev-share-buttons__item--skype,
+.dev-share-buttons-profiles .dev-share-buttons-link--skype {
+	background-color: #00aff0;
+}
+
+.dev-share-buttons .dev-share-buttons__item--reddit,
+.dev-share-buttons .dev-share-buttons-link--reddit,
+.dev-share-buttons-profiles .dev-share-buttons__item--reddit,
+.dev-share-buttons-profiles .dev-share-buttons-link--reddit {
+	background-color: #ff4500;
+}
+
+.dev-share-buttons .dev-share-buttons__item--stumbleupon,
+.dev-share-buttons .dev-share-buttons-link--stumbleupon,
+.dev-share-buttons-profiles .dev-share-buttons__item--stumbleupon,
+.dev-share-buttons-profiles .dev-share-buttons-link--stumbleupon {
+	background-color: #eb4924;
+}
+
+.dev-share-buttons .dev-share-buttons__item--wechat,
+.dev-share-buttons .dev-share-buttons-link--wechat,
+.dev-share-buttons-profiles .dev-share-buttons__item--wechat,
+.dev-share-buttons-profiles .dev-share-buttons-link--wechat {
+	background-color: #7bb32e;
+}
+
+.dev-share-buttons .dev-share-buttons__item--medium,
+.dev-share-buttons .dev-share-buttons-link--medium,
+.dev-share-buttons-profiles .dev-share-buttons__item--medium,
+.dev-share-buttons-profiles .dev-share-buttons-link--medium {
+	background-color: #1c1b1a;
+}
+
+.dev-share-buttons .dev-share-buttons__item--messenger,
+.dev-share-buttons .dev-share-buttons-link--messenger,
+.dev-share-buttons-profiles .dev-share-buttons__item--messenger,
+.dev-share-buttons-profiles .dev-share-buttons-link--messenger {
+	background-color: #0084ff;
+}
+
+@media only screen and (min-width: 480px) {
+	.dev-share-buttons {
+		padding-right: calc(2.5rem - .625rem);
+		padding-left: calc(2.5rem - .625rem);
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.dev-share-buttons {
+		margin-bottom: 5rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.dev-share-buttons {
+		margin-bottom: 6rem;
+	}
+	.main-content > article + .dev-share-buttons {
+		margin-top: -2rem;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.dev-share-buttons {
+		margin-bottom: 8rem;
+	}
+}

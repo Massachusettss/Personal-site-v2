@@ -1,0 +1,63 @@
+/*
+Theme Name: Karis
+
+Contact Form 7 styles override.
+*/
+div.wpcf7 {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wpcf7-form {
+	overflow: hidden;
+}
+
+.wpcf7-form > p:last-of-type {
+	margin-bottom: 0;
+}
+
+.wpcf7-form-control {
+	margin-top: .5em;
+}
+
+input.wpcf7-submit[type='submit'] {
+	margin-top: 0;
+	margin-right: 1em;
+}
+
+.wpcf7-form-control-wrap.your-name,
+.wpcf7-form-control-wrap.your-email,
+.wpcf7-form-control-wrap.your-subject {
+	display: block;
+}
+
+.wpcf7-form-control-wrap.your-name .wpcf7-form-control,
+.wpcf7-form-control-wrap.your-email .wpcf7-form-control,
+.wpcf7-form-control-wrap.your-subject .wpcf7-form-control {
+	max-width: 360px;
+}
+
+span.wpcf7-not-valid-tip {
+	margin-top: .75em;
+	color: #ef3823;
+	font-size: 13px;
+	font-size: .8125rem;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0;
+	padding: .75em 1.5em 1em;
+	color: #1c1d21;
+	border-color: #36b5a9;
+	background-color: #fff;
+	font-size: 1em;
+}
+
+div.wpcf7-response-output:last-child {
+	margin-bottom: 0;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+	border-color: #fe7d3f;
+}

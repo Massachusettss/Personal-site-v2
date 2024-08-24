@@ -1,0 +1,55 @@
+@media print {
+	form,
+	button,
+	.button,
+	input,
+	select,
+	textarea,
+	.navigation,
+	.social-navigation,
+	.featured-content-area,
+	.content-widgets,
+	.post-edit-link,
+	.page-links,
+	.post-navigation-area,
+	.related-posts,
+	.comment-respond,
+	.comment-metadata .edit-link,
+	.comment-reply-link,
+	.pingback .edit-link,
+	embed,
+	iframe,
+	object {
+		display: none !important;
+	}
+	img,
+	figure {
+		page-break-inside: avoid;
+	}
+	.header {
+		position: relative;
+		margin-bottom: 6rem;
+	}
+	.loop-container--masonry {
+		height: auto !important;
+	}
+	.loop-container--masonry .grid__item {
+		position: relative !important;
+		top: unset !important;
+		left: 0 !important;
+		opacity: 1 !important;
+	}
+	body.single .entry__header,
+	body.page .entry__header {
+		min-height: 0;
+	}
+	body.single .post__thumbnail-wrapper img,
+	body.page .post__thumbnail-wrapper img {
+		position: relative;
+		margin-top: 3rem;
+	}
+	body.single .post__thumbnail-wrapper::before,
+	body.page .post__thumbnail-wrapper::before {
+		display: none;
+	}
+}
